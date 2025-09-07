@@ -1,3 +1,4 @@
+import Contact from "@/components/sections/contact"
 import Curriculum from "@/components/sections/curriculum"
 import Faqs from "@/components/sections/faqs"
 import HomeSection from "@/components/sections/home"
@@ -12,6 +13,7 @@ function HomePage() {
      <Curriculum />
      <Resources />
      <Faqs />
+     <Contact />
     </div>
   )
 }
