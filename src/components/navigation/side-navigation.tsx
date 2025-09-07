@@ -1,7 +1,14 @@
-import { navigationLinks } from "@/utils/utils"
-import Link from "next/link"
+"use client";
+
+import { navigationLinks } from "@/utils/utils";
+import Link from "next/link";
 
 function SideNavigation() {
+  const handleClose = () => {
+    const drawer = document.getElementById("my-drawer-3") as HTMLInputElement;
+    if (drawer) drawer.checked = false;
+  };
+
     return (
         <div className="drawer-side">
         <label
@@ -18,7 +25,7 @@ function SideNavigation() {
           {
             navigationLinks.map((link) => (
                 <li key={link.title}>
-                    <Link href={link.link}>
+                    <Link href={link.link} onClick={handleClose}>
                         <link.Icon className="inline mr-2 h-5 w-5" />
                     <span>{link.title}</span>
                     </Link>

@@ -1,6 +1,6 @@
 function Contact() {
   return (
-    <div className="w-full px-4 py-12 md:py-24 lg:py-16 xl:py-24 md:px-8 lg:px-12 xl:px-16 2xl:px-[30rem] bg-secondary flex justify-center items-center">
+    <div id="contact" className="w-full px-4 py-12 md:py-24 lg:py-16 xl:py-24 md:px-8 lg:px-12 xl:px-16 2xl:px-[30rem] bg-secondary flex justify-center items-center">
       <div className=" w-full lg:max-w-5xl text-center">
         <h1 className="text-xl lg:text-5xl font-bold mb-4">Get in Touch</h1>
         <p className="mx-auto text-sm lg:text-xl lg:px-32 text-primary-content">

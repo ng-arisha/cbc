@@ -3,7 +3,7 @@ import Link from "next/link"
 
 function TopNavigation() {
     return (
-        <div className="navbar bg-base-300 w-full">
+        <div className="navbar bg-base-300 w-full sticky top-0 z-50 ">
           <div className="flex-none lg:hidden">
             <label
               htmlFor="my-drawer-3"

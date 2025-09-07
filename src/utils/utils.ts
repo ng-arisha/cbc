@@ -1,4 +1,4 @@
-import { FolderClosed, GraduationCap, Home, InfoIcon, Mail, ScanEye, ScrollText } from "lucide-react";
+import { FolderClosed, GraduationCap, Home, InfoIcon, Mail, ScanEye } from "lucide-react";
 
 export const navigationLinks = [
   {
@@ -21,11 +21,11 @@ export const navigationLinks = [
     link: "#resources",
     Icon:FolderClosed
   },
-  {
-    title: "News",
-    link: "#news",
-    Icon:ScrollText
-  },
+  // {
+  //   title: "News",
+  //   link: "#news",
+  //   Icon:ScrollText
+  // },
   {
     title: "FAQs",
     link: "#faqs",
@@ -33,7 +33,7 @@ export const navigationLinks = [
   },
   {
     title: "Contacts",
-    link: "#contacts",
+    link: "#contact",
     Icon:Mail
   },
 ];

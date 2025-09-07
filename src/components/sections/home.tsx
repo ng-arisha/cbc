@@ -2,7 +2,7 @@ import { Download, FolderClosed, Search } from "lucide-react";
 
 function HomeSection() {
   return (
-    <div className="w-full px-4 py-12 md:py-24 lg:py-32 xl:py-48 md:px-8 lg:px-12 xl:px-16 2xl:px-[30rem] bg-gradient-to-br from-secondary to-[#E8F5E8] flex justify-center items-center">
+    <div id="home" className="w-full px-4 py-12 md:py-24 lg:py-32 xl:py-48 md:px-8 lg:px-12 xl:px-16 2xl:px-[30rem] bg-gradient-to-br from-secondary to-[#E8F5E8] flex justify-center items-center">
       <div className="text-center w-full lg:max-w-4xl">
         <h1 className="text-xl lg:text-5xl font-bold mb-4">
           Your Calm Guide to CBC in Kenya
