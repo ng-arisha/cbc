@@ -213,3 +213,30 @@ export const resources = [
     description:"Detailed curriculum guide for creative arts education, including music, visual arts, and performing arts."
   }
 ]
+
+export const faqs = [
+  {
+    quiz:"What is CBC and how is it different from the old system?",
+    ans:"CBC (Competency-Based Curriculum) is a skills-based curriculum introduced in Kenya to replace the 8-4-4 system. Unlike the old system that focused on memorization and examinations, CBC emphasizes practical skills, critical thinking, and the development of competencies that prepare learners for the modern world. It follows a 2-6-3-3-3 structure and integrates academic knowledge with life skills."
+  },
+  {
+    quiz:"How are students assessed in CBC?",
+    ans:"CBC uses continuous assessment methods rather than relying solely on final examinations. Assessment includes portfolios, projects, practical work, and regular evaluations. Students are assessed on their ability to apply knowledge and demonstrate competencies rather than just memorizing facts. The system uses rubrics to evaluate different levels of competency achievement."
+  },
+  {
+    quiz:"What are the career pathways in senior secondary?",
+    ans:"CBC offers four main career pathways in senior secondary (Grades 10-12): Arts (languages, humanities, social sciences), Sciences (mathematics, physics, chemistry, biology), Technical (engineering, applied sciences, vocational skills), and Sports (sports science, coaching, athletic development). Students choose based on their interests, aptitudes, and career aspirations."
+  },
+  {
+    quiz:"How can parents support their children in CBC?",
+    ans:"Parents can support CBC learning by engaging in their children's projects, encouraging practical application of knowledge, supporting homework and assignments, communicating with teachers regularly, providing learning materials, and creating a conducive learning environment at home. Understanding the competency-based approach helps parents guide their children effectively."
+  },
+  {
+    quiz:"What resources are needed for CBC implementation?",
+    ans:"CBC requires various resources including textbooks aligned to the new curriculum, digital learning tools, practical materials for hands-on activities, assessment tools, trained teachers, appropriate infrastructure, and community support. The government and stakeholders are working to ensure adequate resource provision for effective implementation."
+  },
+  {
+    quiz:"When will the first CBC cohort complete their education?",
+    ans:"The first CBC cohort, which started in 2017, will complete their senior secondary education (Grade 12) in 2029. This cohort is currently progressing through the system, with the pioneer students now in their junior secondary years. The system is being refined and improved based on ongoing experiences and feedback."
+  }
+]

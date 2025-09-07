@@ -35,7 +35,7 @@ function ViewResourcesModal({ title }: { title?: string }) {
             uploaded
           </p>
           <div>
-            <button className="btn bg-success text-secondary-content rounded-sm border border-success" onClick={closeModal}>
+            <button type="button" className="btn bg-success text-secondary-content rounded-sm border border-success" onClick={closeModal}>
               Close
             </button>
           </div>
