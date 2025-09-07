@@ -4,7 +4,7 @@ function Contact() {
       <div className=" w-full lg:max-w-5xl text-center">
         <h1 className="text-xl lg:text-5xl font-bold mb-4">Get in Touch</h1>
         <p className="mx-auto text-sm lg:text-xl lg:px-32 text-primary-content">
-          Have questions or need support? We're here to help you navigate CBC
+          Have questions or need support? We are here to help you navigate CBC
         </p>
         <div className="w-full max-w-md md:max-w-xl mt-8 py-6 mx-auto">
           <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
