@@ -1,4 +1,5 @@
 import { Download, FolderClosed, Search } from "lucide-react";
+import Link from "next/link";
 
 function HomeSection() {
   return (
@@ -13,14 +14,14 @@ function HomeSection() {
         </p>
 
         <div className="flex w-full my-6 flex-col lg:flex-row justify-center items-center gap-4">
-          <button className="cursor-pointer bg-success text-white px-6 py-3 rounded-lg hover:bg-success transition w-full lg:w-auto flex space-x-2">
+          <Link href="#overview" className="cursor-pointer bg-success text-white px-6 py-3 rounded-lg hover:bg-success transition w-full lg:w-auto flex space-x-2">
             <FolderClosed size={20} />
-            <span>Explore Resources</span>
-          </button>
-          <button className="cursor-pointer bg-error text-white px-6 py-3 rounded-lg hover:bg-error transition w-full lg:w-auto">
+            <span>Explore CBC</span>
+          </Link>
+          <Link href="#resources" className="cursor-pointer bg-error text-white px-6 py-3 rounded-lg hover:bg-error transition w-full lg:w-auto">
             <Download size={20} className="inline-block mr-2" />
             <span>Download Resources</span>
-          </button>
+          </Link>
         </div>
 
         <div className=" w-full lg:max-w-xs flex items-center mx-auto   px-2 py-1">
